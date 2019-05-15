@@ -1,0 +1,23 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\vendor",
+    "\\vendor\\swiftmailer",
+    "\\vendor\\swiftmailer\\swiftmailer",
+    "\\vendor\\swiftmailer\\swiftmailer\\tests",
+    "\\vendor\\swiftmailer\\swiftmailer\\tests\\unit",
+    "\\vendor\\swiftmailer\\swiftmailer\\tests\\unit\\Swift",
+    "\\vendor\\swiftmailer\\swiftmailer\\tests\\unit\\Swift\\Mime",
+    "\\vendor\\symfony",
+    "\\vendor\\symfony\\http-foundation",
+    "\\vendor\\symfony\\http-foundation\\Session",
+    "\\vendor\\symfony\\http-kernel",
+    "\\vendor\\symfony\\http-kernel\\Profiler",
+    "\\vendor\\symfony\\http-kernel\\Tests",
+    "\\vendor\\symfony\\http-kernel\\Tests\\Controller",
+    "\\vendor\\symfony\\http-kernel\\Tests\\Controller\\ArgumentResolver",
+    "\\vendor\\symfony\\http-kernel\\Tests\\Profiler"
+  ],
+  "SelectedNode": "\\app",
+  "PreviewInSolutionExplorer": false
+}
