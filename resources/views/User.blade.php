@@ -1,39 +1,16 @@
-<?php
-
-namespace ASISTEC;
-
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-
-class User extends Authenticatable
-{
-    use Notifiable;
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'name', 'email', 'password',
-    ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
-
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
-}
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
+  <head>
+  <title>Login</title>
+  <meta charset=“UTF-8”>
+  <meta name=“viewport” content=“width=device-width”>
+  </head>
+  <body>
+  <form action=“ingresar.php” method=“POST”>
+  <input type=“text” placeholder=“carnet” name=“txtusuario” />
+  <input type=“password” placeholder=“contraseña” name=“txtpassword” />
+  <input type=“submit” value=“submit” name=“entrar” />
+  </form>
+  </body>
+</html>
